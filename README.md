@@ -1,6 +1,7 @@
-# DC-cascade (Submission of MICCAI2025) 
-Anatomy-Aware Dual-Constraint Cascade Mode for Unsupervised Lung CT Deformable Image Registration.
+#ADC-Net (EAAI-25-684) 
+An unsupervised anatomy-aware dual-constraint cascade network for lung computed tomography deformable image registration
 
+The trained models have been uploaded in Release.
 The training data will be uploaded later.
 <div align="center">
   <img src="/fig2.png">
