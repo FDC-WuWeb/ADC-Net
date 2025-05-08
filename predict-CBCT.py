@@ -16,7 +16,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 #%%
 '''dataset loading'''
 torch.backends.cudnn.benchmark = True
-roottest = r'D:\4DCT\Data1028/'
+roottest = r'/yourroot' #put segCADnpy,segnpy,vessel77npy into the same folder
 img_size = [256, 256, 128]
 modelCAD = model.snetCAD(img_size=img_size).cuda()
 modelORG = model.snetORG(img_size=img_size).cuda()
