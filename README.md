@@ -12,7 +12,8 @@ In this study, we propose an unsupervised Anatomy-aware Dual-constraint Cascade 
 </div>
 
 ## News
-2025.05.08: Code and pretrained models on Dir-lab/ThoraxCBCT have been uploaded in Release. The training data will be uploaded later.
+2025.05.08: Test dataset and pre-trained models on Dir-lab/ThoraxCBCT have been uploaded in Release. The training data will be uploaded later.
+2025.
 
 ## Installation
 Please use the following command for installation.
@@ -26,7 +27,7 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 #Install packages and other dependencies
 pip install -r requirements.txt
 ```
-Code has been tested with Ubuntu 20.04, condaPython 3.8, PyTorch 2.1, and CUDA 11.8.
+Code has been tested with Ubuntu 20.04, Python 3.8, PyTorch 2.1, and CUDA 11.8.
 
 ## Pre-trained Weights
 We provide pre-trained weights in the release page. Please download the latest weights and put them in weights-adam directory.
