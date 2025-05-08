@@ -12,7 +12,7 @@ In this study, we propose an unsupervised Anatomy-aware Dual-constraint Cascade 
 </div>
 
 ## News
-2025.05.08: Test dataset and pre-trained models on Dir-lab/ThoraxCBCT have been uploaded in Release. The training data will be uploaded later.  
+2025.05.08: Test dataset and pre-trained models on Dir-lab/ThoraxCBCT have been uploaded in the release page. The training data will be uploaded later.  
 2025.05.08: Code have been released.
 
 ## Installation
