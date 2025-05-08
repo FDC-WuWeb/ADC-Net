@@ -12,7 +12,7 @@ In this study, we propose an unsupervised Anatomy-aware Dual-constraint Cascade 
 </div>
 
 ## News
-2025.05.08: Test dataset and pre-trained models on Dir-lab/ThoraxCBCT have been uploaded in the release page. The training data will be uploaded later.  
+2025.05.08: Test dataset and pre-trained models on Dir-lab/ThoraxCBCT have been uploaded in the [release](https://github.com/FDC-WuWeb/ADC-Net/releases/tag/Weights) page. The training data will be uploaded later.  
 2025.05.08: Code have been released.
 
 ## Installation
@@ -31,3 +31,12 @@ Code has been tested with Ubuntu 20.04, Python 3.8, PyTorch 2.1, and CUDA 11.8.
 
 ## Pre-trained Weights
 We provide pre-trained weights in the release page. Please download the latest weights and put them in weights-adam directory.
+
+## Training
+Run train.py for training (the training data will be uploaded later).
+
+## Testing
+Run predict-Dirlab.py or predict-CBCT.py for testing.
+
+## Acknowledgements
+[Deformable-Image-Registration-Projects](https://github.com/Timmy-Fang/Deformable-Image-Registration-Projects)
