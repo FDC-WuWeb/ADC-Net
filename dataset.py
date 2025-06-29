@@ -60,7 +60,7 @@ class Volumes(data.Dataset):
 
         for dataroot in ["COPD", "Creates", "Dirlab", "Spare"]: #Creatis
             if dataroot == "Dirlab":
-                for index in [6,7]:
+                for index in [6,7,8]:
                     case = 'case%g' % index
                     path_valCAD = self.root + "/segCADnpy/" + dataroot + '/'
                     mov_fname = path_valCAD + case + '_T00.npy'
